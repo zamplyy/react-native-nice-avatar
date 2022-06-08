@@ -42,10 +42,9 @@ export interface AvatarFullConfig extends AvatarConfig {
 }
 
 export interface NiceAvatarProps extends AvatarConfig {
-  id?: string;
-  className?: string;
   style?: ViewStyle;
   shape?: 'circle' | 'rounded' | 'square';
+  size: number;
 }
 
 export type GenConfigFunc = (

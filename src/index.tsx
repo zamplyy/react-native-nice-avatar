@@ -18,7 +18,12 @@ import Mouth from './mouth';
 import Shirt from './shirt';
 
 const ReactNiceAvatar: FC<NiceAvatarProps> = (props) => {
-  const { style, shape = 'circle', hairColorRandom = false } = props;
+  const {
+    style,
+    shape = 'circle',
+    hairColorRandom = false,
+    size = 100,
+  } = props;
   const config = genConfig(props);
 
   // Background shape
@@ -40,6 +45,8 @@ const ReactNiceAvatar: FC<NiceAvatarProps> = (props) => {
   return (
     <View
       style={{
+        height: size,
+        width: size,
         backgroundColor: config.bgColor,
         borderRadius,
         ...style,
@@ -50,7 +57,6 @@ const ReactNiceAvatar: FC<NiceAvatarProps> = (props) => {
           position: 'relative',
           width: '100%',
           height: '100%',
-          backgroundColor: 'blue',
         }}
       >
         <View
@@ -62,7 +68,7 @@ const ReactNiceAvatar: FC<NiceAvatarProps> = (props) => {
           }}
         >
           <Face color={config.faceColor} />
-          {/* <Hat color={config.hatColor} style={config.hatStyle} /> */}
+          <Hat color={config.hatColor} style={config.hatStyle} />
           {config.hatStyle === 'none' && (
             <Hair
               color={config.hairColor}
@@ -72,7 +78,7 @@ const ReactNiceAvatar: FC<NiceAvatarProps> = (props) => {
           )}
 
           {/* Face detail */}
-          {/* <View
+          <View
             style={{
               position: 'absolute',
               right: '-3%',
@@ -83,7 +89,6 @@ const ReactNiceAvatar: FC<NiceAvatarProps> = (props) => {
               flexDirection: 'column',
               alignItems: 'center',
               justifyContent: 'center',
-              backgroundColor: 'red',
             }}
           >
             <Eyebrow style={config.eyeBrowStyle} />
@@ -92,7 +97,7 @@ const ReactNiceAvatar: FC<NiceAvatarProps> = (props) => {
             <Ear color={config.faceColor} size={config.earSize} />
             <Nose style={config.noseStyle} />
             <Mouth style={config.mouthStyle} />
-          </View> */}
+          </View>
 
           <Shirt color={config.shirtColor} style={config.shirtStyle} />
         </View>
