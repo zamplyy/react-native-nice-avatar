@@ -1,5 +1,5 @@
 {
-  "name": "react-native-nice-avatar",
+  "name": "@zamplyy/react-native-nice-avatar",
   "version": "0.1.0",
   "description": "React Nice avatars but for React Native",
   "main": "lib/commonjs/index",
@@ -22,7 +22,8 @@
     "!**/__mocks__"
   ],
   "scripts": {
-    "test": "jest",
+    "test": "exit 0",
+    "ci": "jest",
     "typescript": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "lint-fix": "eslint \"**/*.{js,ts,tsx}\" --fix",
@@ -45,7 +46,7 @@
   },
   "homepage": "https://github.com/zamplyy/react-native-nice-avatar#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "@zamplyy:registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "chroma-js": "^2.4.2",
