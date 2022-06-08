@@ -46,7 +46,8 @@
   },
   "homepage": "https://github.com/zamplyy/react-native-nice-avatar#readme",
   "publishConfig": {
-    "@zamplyy:registry": "https://npm.pkg.github.com"
+    "@zamplyy:registry": "https://npm.pkg.github.com",
+    "access": "public"
   },
   "dependencies": {
     "chroma-js": "^2.4.2",
