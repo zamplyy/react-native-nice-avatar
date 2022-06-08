@@ -1,6 +1,6 @@
 {
   "name": "@zamplyy/react-native-nice-avatar",
-  "version": "0.1.0",
+  "version": "1.0.0-alpha",
   "description": "React Nice avatars but for React Native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
