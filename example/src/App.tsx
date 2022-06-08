@@ -1,18 +1,16 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-nice-avatar';
+import Avatar, { genConfig } from 'react-native-nice-avatar';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
+  const config = genConfig();
 
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
+  console.log('congig', config);
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text>Result: hejsan</Text>
+      <Avatar style={{ height: 100, width: 100 }} />
     </View>
   );
 }
