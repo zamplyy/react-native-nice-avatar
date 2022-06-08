@@ -11,11 +11,12 @@ npm install react-native-nice-avatar
 ## Usage
 
 ```js
-import { multiply } from "react-native-nice-avatar";
+import Avatar from "react-native-nice-avatar";
 
 // ...
-
-const result = await multiply(3, 7);
+<View>
+  <Avatar>
+</View>
 ```
 
 ## Contributing
