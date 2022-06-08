@@ -12,8 +12,6 @@ export default function hairNormal(props: SvgProps) {
         height: '81%',
         left: '-0.5%',
       }}
-      width="240"
-      height="270"
       viewBox="0 0 240 270"
       fill="none"
       {...rest}

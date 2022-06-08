@@ -19,8 +19,6 @@ export default function hairMohawk(props: {
         height: '63.5%',
         left: '-1.8%',
       }}
-      width="240"
-      height="203"
       viewBox="0 0 240 203"
       fill="none"
     >

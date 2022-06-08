@@ -14,8 +14,6 @@ export default function hairThick(props: {
         width: '93.5%',
         height: '64%',
       }}
-      width="240"
-      height="200"
       viewBox="0 0 240 200"
       fill="none"
     >

@@ -12,8 +12,6 @@ export default function hatBeanie(props: { color: string }) {
         height: '85%',
         left: '22%',
       }}
-      width="640px"
-      height="508px"
       viewBox="0 0 640 508"
       preserveAspectRatio="xMidYMid meet"
     >

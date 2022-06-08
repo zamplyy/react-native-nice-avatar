@@ -14,8 +14,7 @@ export default function face(props: SvgProps) {
   const pathId = `path${Math.round(Math.random() * 9999999)}`;
   return (
     <Svg
-      width={200}
-      height={320}
+      viewBox="0 0 200 320"
       fill="none"
       style={{
         width: '100%',

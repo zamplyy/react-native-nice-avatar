@@ -11,8 +11,6 @@ export default function shirtShort(props: { color: string }) {
         width: '100%',
         height: '26%',
       }}
-      width="281"
-      height="93"
       viewBox="0 0 281 93"
       fill="none"
     >

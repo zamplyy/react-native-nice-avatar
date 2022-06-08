@@ -10,8 +10,6 @@ export default function eyebrowUpWoman() {
         height: '13%',
         top: 0,
       }}
-      width="149"
-      height="51"
       viewBox="0 0 149 51"
       fill="none"
     >

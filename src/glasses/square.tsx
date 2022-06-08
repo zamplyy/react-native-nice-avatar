@@ -11,8 +11,6 @@ export default function glassesSquare() {
         top: '0.5%',
         left: '-3%',
       }}
-      width="160"
-      height="74"
       viewBox="0 0 160 74"
       fill="none"
     >

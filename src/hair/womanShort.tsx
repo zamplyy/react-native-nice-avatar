@@ -12,8 +12,6 @@ export default function hairWomanShort(props: { color: string }) {
         height: '75%',
         left: '-0.8%',
       }}
-      width="261"
-      height="240"
       viewBox="0 0 261 240"
       fill="none"
     >

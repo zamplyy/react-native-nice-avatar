@@ -5,9 +5,8 @@ export default function earBig(props: SvgProps) {
   const { color, ...rest } = props;
   return (
     <Svg
-      width={48}
-      height={52}
       fill="none"
+      viewBox="0 0 48 52"
       style={{
         position: 'absolute',
         width: '16%',

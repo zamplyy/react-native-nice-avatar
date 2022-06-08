@@ -10,8 +10,6 @@ export default function eyesOval() {
         position: 'absolute',
         top: '6%',
       }}
-      width="96"
-      height="48"
       viewBox="0 0 96 48"
       fill="none"
     >

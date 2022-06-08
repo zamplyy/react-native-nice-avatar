@@ -12,8 +12,6 @@ export default function mouthLaugh() {
         top: '23%',
         right: '23%',
       }}
-      width="73"
-      height="64"
       viewBox="0 0 73 64"
       fill="none"
     >

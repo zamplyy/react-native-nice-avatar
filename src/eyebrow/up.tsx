@@ -10,8 +10,6 @@ export default function eyebrowUp() {
         height: '13%',
         top: 0,
       }}
-      width="149"
-      height="48"
       viewBox="0 0 149 48"
       fill="none"
     >

@@ -11,8 +11,6 @@ export default function noseShort() {
         top: '15%',
         left: '46%',
       }}
-      width="32"
-      height="40"
       viewBox="0 0 32 40"
       fill="none"
     >

@@ -12,8 +12,6 @@ export default function hatTurban(props: { color: string }) {
         width: '64%',
         height: '84%',
       }}
-      width="240"
-      height="212"
       viewBox="0 0 240 212"
       fill="none"
     >

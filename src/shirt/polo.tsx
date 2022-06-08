@@ -15,8 +15,6 @@ export default function shirtPolo(props: {
         height: '26%',
         left: '-0.2%',
       }}
-      width="281"
-      height="93"
       viewBox="0 0 281 93"
       fill="none"
     >

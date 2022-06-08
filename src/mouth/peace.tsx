@@ -11,8 +11,6 @@ export default function mouthPeace() {
         top: '23%',
         right: '23%',
       }}
-      width="67"
-      height="64"
       viewBox="0 0 67 64"
       fill="none"
     >

@@ -14,8 +14,6 @@ export default function shirtHoody(props: {
         width: '98%',
         height: '26%',
       }}
-      width="281"
-      height="93"
       viewBox="0 0 281 93"
       fill="none"
     >

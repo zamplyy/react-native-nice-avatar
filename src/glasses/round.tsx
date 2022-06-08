@@ -11,8 +11,6 @@ export default function glassesRound() {
         top: '1.5%',
         left: '-3%',
       }}
-      width="152"
-      height="65"
       viewBox="0 0 152 65"
       fill="none"
     >
