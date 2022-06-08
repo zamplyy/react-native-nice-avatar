@@ -10,7 +10,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Avatar size={50} {...config} />
-      <Avatar size={100} {...config} />
+      <Avatar size={120} {...config} />
       <Avatar size={150} {...config} />
       <Avatar size={150} />
     </View>
