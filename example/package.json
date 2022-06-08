@@ -3,6 +3,7 @@
   "description": "Example app for react-native-nice-avatar",
   "version": "0.0.1",
   "main": "index",
+  "private": true,
   "scripts": {
     "android": "expo start --android",
     "ios": "expo start --ios",
