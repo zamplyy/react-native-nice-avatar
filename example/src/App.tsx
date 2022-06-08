@@ -9,8 +9,10 @@ export default function App() {
   console.log('congig', config);
   return (
     <View style={styles.container}>
-      <Text>Result: hejsan</Text>
-      <Avatar style={{ height: 100, width: 100 }} />
+      <Avatar size={50} {...config} />
+      <Avatar size={100} {...config} />
+      <Avatar size={150} {...config} />
+      <Avatar size={150} />
     </View>
   );
 }
