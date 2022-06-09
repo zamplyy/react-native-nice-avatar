@@ -5,7 +5,7 @@ React Nice avatars but for React Native
 ## Installation
 
 ```sh
-npm install @zamplyy/react-native-nice-avatar@1.0.0
+npm install @zamplyy/react-native-nice-avatar
 ```
 
 ## Usage
