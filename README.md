@@ -17,6 +17,10 @@ React Nice avatars but for React Native 📱
 
 This package is basically a fork from [react-nice-avatar](react-nice-avatar), but intended for React Native.
 
+## Known issues
+
+isGradient prop isn't working see [#12](/../../issues/12)
+
 ## Installation
 
 ```sh
