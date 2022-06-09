@@ -1,10 +1,10 @@
 import React from 'react';
-import type { EyeBrowStyle } from 'src/types';
+import type { EyeBrowStyleType } from 'src/types';
 
 import Up from './up';
 import UpWoman from './upWoman';
 
-export default function eyebrow(props: { style: EyeBrowStyle }) {
+export default function eyebrow(props: { style: EyeBrowStyleType }) {
   const { style } = props;
   switch (style) {
     case 'upWoman':

@@ -3,9 +3,9 @@ import React from 'react';
 import Laugh from './laugh';
 import Smile from './smile';
 import Peace from './peace';
-import type { MouthStyle } from 'src/types';
+import type { MouthStyleType } from 'src/types';
 
-export default function mouth(props: { style: MouthStyle }) {
+export default function mouth(props: { style: MouthStyleType }) {
   const { style } = props;
   switch (style) {
     case 'laugh':

@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "react-native-nice-avatar": ["./src/index"]
+      "@zamplyy/react-native-nice-avatar": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

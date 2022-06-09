@@ -1,11 +1,11 @@
 import React from 'react';
-import type { EyeStyle } from 'src/types';
+import type { EyeStyleType } from 'src/types';
 
 import Circle from './circle';
 import Oval from './oval';
 import Smile from './smile';
 
-export default function eyes(props: { style: EyeStyle }) {
+export default function eyes(props: { style: EyeStyleType }) {
   const { style } = props;
   switch (style) {
     case 'circle':

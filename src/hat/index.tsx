@@ -2,9 +2,9 @@ import React from 'react';
 
 import Turban from './turban';
 import Beanie from './beanie';
-import type { HatStyle } from 'src/types';
+import type { HatStyleType } from 'src/types';
 
-export default function hat(props: { color: string; style: HatStyle }) {
+export default function hat(props: { color: string; style: HatStyleType }) {
   const { style, color } = props;
   switch (style) {
     case 'beanie':

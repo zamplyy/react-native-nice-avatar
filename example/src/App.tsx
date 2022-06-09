@@ -1,8 +1,7 @@
 import * as React from 'react';
 
 import { StyleSheet, View } from 'react-native';
-import Avatar, { genConfig } from 'react-native-nice-avatar';
-
+import Avatar, { genConfig } from '@zamplyy/react-native-nice-avatar';
 export default function App() {
   const config = genConfig();
 
@@ -11,7 +10,7 @@ export default function App() {
     <View style={styles.container}>
       <Avatar size={50} {...config} />
       <Avatar size={120} {...config} />
-      <Avatar size={150} {...config} />
+      <Avatar size={150} />
       <Avatar size={150} />
     </View>
   );

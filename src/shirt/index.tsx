@@ -4,9 +4,9 @@ import chroma from 'chroma-js';
 import Hoody from './hoody';
 import Short from './short';
 import Polo from './polo';
-import type { ShirtStyle } from 'src/types';
+import type { ShirtStyleType } from 'src/types';
 
-export default function shirt(props: { color: string; style: ShirtStyle }) {
+export default function shirt(props: { color: string; style: ShirtStyleType }) {
   const { style, color } = props;
   const secondColor = chroma(color).brighten(1).hex();
   switch (style) {

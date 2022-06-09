@@ -1,17 +1,30 @@
 import type {
   AvatarFullConfig,
+  EarSizeType,
+  EyeBrowStyleType,
+  EyeStyleType,
   GenConfigFunc,
-  Sex,
+  GlassesStyleType,
+  HairStyleManType,
+  HairStyleWomanType,
+  HatStyleType,
+  MouthStyleType,
+  NoseStyleType,
+  SexType,
+  ShirtStyleType,
+} from './types';
+import {
   EarSize,
+  EyeBrowStyle,
+  EyeStyle,
+  GlassesStyle,
   HairStyleMan,
   HairStyleWoman,
   HatStyle,
-  EyeStyle,
-  GlassesStyle,
-  NoseStyle,
   MouthStyle,
+  NoseStyle,
+  Sex,
   ShirtStyle,
-  EyeBrowStyle,
 } from './types';
 
 /**
@@ -49,28 +62,28 @@ export const pickRandomFromList: PickRandomFromList = (
  * Gennerate avatar configurations
  */
 interface DefaultOptions {
-  sex: Sex[];
+  sex: SexType[];
   faceColor: string[];
-  earSize: EarSize[];
+  earSize: EarSizeType[];
   hairColor: string[];
-  hairStyleMan: HairStyleMan[];
-  hairStyleWoman: HairStyleWoman[];
+  hairStyleMan: HairStyleManType[];
+  hairStyleWoman: HairStyleWomanType[];
   hatColor: string[];
-  hatStyle: HatStyle[];
-  eyeBrowWoman: EyeBrowStyle[];
-  eyeStyle: EyeStyle[];
-  glassesStyle: GlassesStyle[];
-  noseStyle: NoseStyle[];
-  mouthStyle: MouthStyle[];
-  shirtStyle: ShirtStyle[];
+  hatStyle: HatStyleType[];
+  eyeBrowWoman: EyeBrowStyleType[];
+  eyeStyle: EyeStyleType[];
+  glassesStyle: GlassesStyleType[];
+  noseStyle: NoseStyleType[];
+  mouthStyle: MouthStyleType[];
+  shirtStyle: ShirtStyleType[];
   shirtColor: string[];
   bgColor: string[];
   gradientBgColor: string[];
 }
 export const defaultOptions: DefaultOptions = {
-  sex: ['man', 'woman'],
+  sex: Object.values(Sex),
   faceColor: ['#F9C9B6', '#AC6651'],
-  earSize: ['small', 'big'],
+  earSize: Object.values(EarSize),
   hairColor: [
     '#000',
     '#fff',
@@ -80,8 +93,8 @@ export const defaultOptions: DefaultOptions = {
     '#506AF4',
     '#F48150',
   ],
-  hairStyleMan: ['normal', 'thick', 'mohawk'],
-  hairStyleWoman: ['normal', 'womanLong', 'womanShort'],
+  hairStyleMan: Object.values(HairStyleMan),
+  hairStyleWoman: Object.values(HairStyleWoman),
   hatColor: [
     '#000',
     '#fff',
@@ -91,13 +104,13 @@ export const defaultOptions: DefaultOptions = {
     '#506AF4',
     '#F48150',
   ],
-  hatStyle: ['beanie', 'turban', 'none'],
-  eyeBrowWoman: ['up', 'upWoman'],
-  eyeStyle: ['circle', 'oval', 'smile'],
-  glassesStyle: ['round', 'square', 'none'],
-  noseStyle: ['short', 'long', 'round'],
-  mouthStyle: ['laugh', 'smile', 'peace'],
-  shirtStyle: ['hoody', 'short', 'polo'],
+  hatStyle: Object.values(HatStyle),
+  eyeBrowWoman: Object.values(EyeBrowStyle),
+  eyeStyle: Object.values(EyeStyle),
+  glassesStyle: Object.values(GlassesStyle),
+  noseStyle: Object.values(NoseStyle),
+  mouthStyle: Object.values(MouthStyle),
+  shirtStyle: Object.values(ShirtStyle),
   shirtColor: ['#9287FF', '#6BD9E9', '#FC909F', '#F4D150', '#77311D'],
   bgColor: [
     '#9287FF',

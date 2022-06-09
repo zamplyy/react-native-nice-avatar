@@ -49,6 +49,7 @@ const ReactNiceAvatar: FC<NiceAvatarProps> = (props) => {
         width: size,
         backgroundColor: config.bgColor,
         borderRadius,
+        overflow: 'hidden',
         ...style,
       }}
     >
@@ -109,3 +110,4 @@ const ReactNiceAvatar: FC<NiceAvatarProps> = (props) => {
 export default ReactNiceAvatar;
 
 export { genConfig } from './utils';
+export * from './types';

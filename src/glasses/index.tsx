@@ -1,10 +1,10 @@
 import React from 'react';
-import type { GlassesStyle } from 'src/types';
+import type { GlassesStyleType } from 'src/types';
 
 import Round from './round';
 import Square from './square';
 
-export default function glasses(props: { style: GlassesStyle }) {
+export default function glasses(props: { style: GlassesStyleType }) {
   const { style } = props;
   switch (style) {
     case 'round':

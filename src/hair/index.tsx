@@ -5,10 +5,10 @@ import Thick from './thick';
 import Mohawk from './mohawk';
 import WomanLong from './womanLong';
 import WomanShort from './womanShort';
-import type { HairStyle } from 'src/types';
+import type { HairStyleType } from 'src/types';
 
 export default function hair(props: {
-  style: HairStyle;
+  style: HairStyleType;
   color: string;
   colorRandom: boolean;
 }) {
