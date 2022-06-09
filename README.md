@@ -11,7 +11,7 @@ npm install react-native-nice-avatar
 ## Usage
 
 ```js
-import Avatar from "react-native-nice-avatar";
+import {Avatar} from "react-native-nice-avatar";
 
 // ...
 <View>
