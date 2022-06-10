@@ -15,7 +15,7 @@ React Nice avatars but for React Native 📱
 
 ## Credits
 
-This package is basically a fork from [react-nice-avatar](react-nice-avatar), but intended for React Native.
+This package is basically a fork from [react-nice-avatar](https://github.com/dapilab/react-nice-avatar), but intended for React Native.
 
 ## Known issues
 
